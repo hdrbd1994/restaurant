@@ -1,0 +1,43 @@
+
+.menu{
+    padding-top: 0px;
+    padding-left: 942px;
+
+}
+
+.menu ul li{
+    
+    display: block;
+    float: left;
+    font-size: 21pt;
+    padding-right:40px;
+
+}
+
+.menu ul li a{
+    color: white;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, sans-serif;
+    outline: none;
+
+}
+
+.menu ul li a:hover{
+    color: red;
+    font-weight: 400;
+    font-family: Tahoma, Geneva, sans-serif;
+    transition: 0.3s;
+    outline: none;
+  
+}
+
+.datep{
+    float: left;
+    margin-left:0px; 
+}
+/*Header ends here*/
+
+
+
+/*Section name plate*/
+

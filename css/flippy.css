@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.texteffect1{
+
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+.texteffect1 ul li{
+    font-size: 40px;
+    color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width: 430px;
+    height: 70px;
+    border: 2px solid white;
+    background-color: rgba(28,43,245,0.7);
+}
+
+
+.texteffect1 ul li span{
+    color: red;
+    font-weight: 800;
+}
+
+.flippy {
+    position: relative;
+
+}
+
+.flippy > * {
+    position: absolute;
+    opacity: 0;
+    top: -50px;
+}
+
+.flippy > *:first-child {
+opacity: 1;
+top: 0;
+}
